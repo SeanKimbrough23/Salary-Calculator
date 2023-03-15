@@ -1,13 +1,90 @@
-title {
-    text-align: center;
-    color: coral;
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
 
 body {
-    color: coral;
-}
-header {
-    text-align: center;
+  background-color: #4605ec;
+  color: #fff;
 }
 
+.over-budget {
+  background-color: red;
+}
+
+.form-submit-btn {
+  background: #8093f1;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  display: block;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 789px;
+  width: 8em;
+  height: 3em;
+}
+
+.form-submit-btn:hover {
+  background: #700178;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+.deleteBtn {
+  background: #d131fd;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  width: 5em;
+  height: 2em;
+}
+
+.deleteBtn:hover {
+  background: #79026b;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgb(249, 249, 249);
+  width: 150px;
+  height: 40px;
+}
+
+table tr:nth-child(odd) {
+  background-color: silver;
+}
+table tr:nth-child(even) {
+  background-color: slategrey;
+}
+
+th {
+  background-color: #534b62;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+#table-footer {
+  background-color: #534b62;
+}

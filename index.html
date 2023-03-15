@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary Calculator</title>
-    <!-- sourced jquery cdn first, in case my remote file fail make connection  -->
-    <script src="./jquery-3.6.3.js"></script>
+    <script src="jquery-3.6.4.js" ></script>      
     <script src="./salarycalculator.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,14 +13,14 @@
     <h1>Salary Calculator</h1>
 
     <h2>Add Employee</h2>
-        <table id="addEmployeeForm">
+        <form id="addEmployeeForm">
             <input id="firstNameInput" type="text" placeholder="First Name" />
             <input id="lastNameInput" type="text" placeholder="Last Name" />
-            <input id="employeeIDInput" type="number" placeholder="Employee ID" />
-            <input id="jobTitleInput" type="text" placeholder="Job Title" />
+            <input id="idNumberInput" type="number" placeholder="ID" />
+            <input id="titleInput" type="text" placeholder="Title" />
             <input id="annualSalaryInput" type="number" placeholder="Annual Salary" />
             <input type="submit" class="form-submit-btn" value="Submit"> 
-        </table>
+        </form>
 
     <h3>Employees</h3>        
         <table>
@@ -48,7 +47,7 @@
 
         </table>
 
-    <h4 id="totalMonthlySalary" class="total-monthly-salary"></h4>
+    <h4 id="totalMonthlySalary" class="total-monthly-salary">
 
 </body>
 </html>
